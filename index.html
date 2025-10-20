@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>80%done</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Infinite Gamer Store — Mobile Legends (India)</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- BANNER -->
+<div class="banner">
+  <h1 contenteditable="true" id="storeBanner">INFINITE GAMER STORE</h1>
+</div>
+
+<div class="container">
+  <div class="hero">
+    <img src="https://rinstore.in/productImages/1752506487086--1751460908152--IMG_8801.jpeg" alt="">
+    <div>
+      <h1>MOBILE LEGENDS (INDIA)</h1>
+      <div class="meta">
+        <div><i class="ri-customer-service-2-fill"></i> 24/7 Support</div>
+        <div><i class="ri-shield-check-fill"></i> Safe Payment</div>
+        <div><i class="ri-store-3-fill"></i> Official Store</div>
+        <div><i class="ri-flashlight-fill"></i> Instant Delivery</div>
+      </div>
+      <div class="small" style="margin-top:4px">To find your user ID it will be displayed below your Nickname. Please input the complete User ID here.</div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="label">ENTER IDS</div>
+    <div class="inputs">
+      <input id="userId" placeholder="Enter your User ID">
+      <input id="serverId" placeholder="Enter your Zone ID">
+    </div>
+
+    <div class="label">DIAMOND PACKS</div>
+    <div class="products-grid" id="productsGrid"></div>
+
+    <div class="payment-row">
+      <div>
+        <div class="label">SELECT PAYMENT</div>
+        <div class="pay-methods">
+          <div class="pay-method active" data-method="qr"><i class="ri-qr-code-fill"></i> QR</div>
+          
+        </div>
+      </div>
+      <div class="qr-panel">
+        <div style="display:flex;gap:8px;align-items:center;">
+          <div id="qrcode"></div>
+          <div class="qr-details">
+            <h3 id="qrTitle">Select a product</h3>
+            <div class="small">Scan to pay via UPI</div>
+            <div class="amount" id="qrAmount">₹0</div>
+            <div class="small" id="selectedQty"></div>
+          </div>
+        </div>
+        <div style="text-align:right">
+          <div class="small">Store</div>
+          <div style="font-weight:700;" id="storeNameDisplay">Infinite Gamer Store</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="buy-row">
+      <div>
+        <div class="label">BUY NOW</div>
+        <div class="small">Redirects to WhatsApp with your invoice.</div>
+      </div>
+      <button class="buy-btn" id="buyNowBtn">Select Pack</button>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/qrcodejs/qrcode.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
